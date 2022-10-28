@@ -1,16 +1,50 @@
-# 737 🏗_🛫⛅
+# 🛰 UNIVERSE 
+# 📀 DYNAMO
+▄▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▄
+# 📚 Web Stack
+  
+  
+█▀ ▀ ▀ ▀ ▀ ▀ ▀█
+   📠 BOTTOM
+▀             ▀               
+- 📗 NGINX
+- 📀 REDIS
+- 📀 POSTGRESQL
+-  ⚙️  NODE.js
+-  ⚙️  GO
 
-### 1 Technology Stack 4 Web 5 Life 6 Ever
-██████████████████████████████████████
-## Features:
+█▄ ▄ ▄ ▄ ▄ ▄ ▄█
+▄             ▄
+   💻 TOP        
 
-- Generation of NGINX virtual hosts
-- Generating MySQL schemas
-- Generation of commands for individual web services
-- Wrapping web services with systemd
+- 📷 react-three-fiber    
+- 🖼 react.js
+-  ☎️ socket.io
+- 🏦 redux
+- 🏪 redux sega
+             
+▀             ▀
+█▄ ▄ ▄ ▄ ▄ ▄ ▄█
 
-## Goals:
-- Running as container..
 
-## Mysteries:
-- ?
+# ⌬ Elements
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█                 █
+ ```
+000_NODE
+100_ELEMENT
+200_LINK
+300_SEQUENCE
+303_WAVE
+343_CURVE
+353_CYCLE
+330_IMAGE
+333_VIDEO
+400_MANIFOLD
+440_STRUCTURE
+430_VECTOR
+431_COMPONENT  
+500_OPERATION
+```
+
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
