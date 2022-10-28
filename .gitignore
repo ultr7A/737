@@ -1,0 +1,8 @@
+secret
+
+domains.String[]
+ident.email.String
+
+.vscode
+node_modules
+

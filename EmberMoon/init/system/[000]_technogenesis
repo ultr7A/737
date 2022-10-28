@@ -1,0 +1,10 @@
+#!/bin/bash
+#▀▀▀▀▀▀▀▀▀▀▀
+
+# In the beginning, the universe exploded and intelligence emerged.
+
+ELEMENTS="$(cat ../../core/elements⌬.String[])";
+
+for element in $ELEMENTS; do
+    mkdir "/root/$element";
+done

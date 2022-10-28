@@ -1,0 +1,6 @@
+#!/bin/bash
+
+mkdir -p                      /etc/nginx/conf.d_backup;
+cp    -r  /etc/nginx/conf.d/* /etc/nginx/conf.d_backup;
+
+source   ../[002]_certbot/get-certificates.sh;
