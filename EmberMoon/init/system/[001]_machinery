@@ -64,5 +64,10 @@
 Plug 'roxma/nvim-completion-manager'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
-call plug#end()' >> ~/.config/nvim/lua/config.lua;
+call plug#end()' >> ~/.config/nvim/init.vim
+
+    printf 'local g = vim.g
+local cmd = vim.cmd
+local fn = vim.fn' >> ~/.config/nvim/lua/config.lua
+    
     
