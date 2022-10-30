@@ -1,0 +1,68 @@
+#!/bin/bash
+# Essential Machinery:
+# ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+
+    snap install core; sudo snap refresh core
+    
+    apt install unzip;
+
+    apt-get remove certbot, sudo dnf remove certbot, or sudo yum remove certbot
+    snap install --classic certbot
+    ln           -s /snap/bin/certbot /usr/bin/certbot
+
+    apt install mosh tree vsftpd
+
+
+# Web:
+# ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+    apt install nginx
+
+# Database:
+# ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+    apt install postgresql 
+    apt install redis iredis
+
+# Application Layer:
+# ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+    apt install golang
+
+    #Node.js
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+    source ~/.bashrc;
+
+    #nvm install 18
+    #nvm use     18
+
+    #Bun.sh
+    curl https://bun.sh/install | bash
+
+# Editing Tools:
+# ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ 
+
+    # Neo Vim
+    apt-get install fuse libfuse2 git python3-pip ack-grep -y
+
+    wget --quiet https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage --output-document nvim
+
+    chmod +x nvim
+    mv nvim /usr/bin
+
+    mkdir -p ~/.config/nvim
+
+    # Plug
+    curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+    # Advanced NeoVim Completion
+    pip3 install --user neovim
+
+    touch ~/.config/nvim/init.vim
+    touch ~/.config/nvim/lua/config.lua
+
+    echo "lua require('config')" > ~/.config/nvim/init.vim
+
+    printf 'call plug#begin()
+Plug 'roxma/nvim-completion-manager'
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+call plug#end()' >> ~/.config/nvim/lua/config.lua;
+    
