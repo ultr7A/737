@@ -5,25 +5,24 @@
   
   
 █▀ ▀ ▀ ▀ ▀ ▀ ▀█
-   📠 BOTTOM
-▀             ▀               
-- 📗 NGINX
-- 📀 REDIS
-- 📀 POSTGRESQL
--  ⚙️  NODE.js
--  ⚙️  GO
+ ### 📠 BOTTOM               
 
-█▄ ▄ ▄ ▄ ▄ ▄ ▄█
-▄             ▄
-   💻 TOP        
++ 📗 NGINX
++ 📀 REDIS
++ 📀 POSTGRESQL
++ ⚙️  NODE.js
++ ⚙️  GO
 
-- 📷 react-three-fiber    
-- 🖼 react.js
--  ☎️ socket.io
-- 🏦 redux
-- 🏪 redux sega
-             
-▀             ▀
+▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄
+
+### 💻 TOP        
+
++ 📷 react-three-fiber    
++ 📷 drei
++ 🖼 react.js
++  ☎️ socket.io
++ 🏦 redux
+
 █▄ ▄ ▄ ▄ ▄ ▄ ▄█
 
 
