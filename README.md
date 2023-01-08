@@ -1,6 +1,5 @@
 # 🛰 UNIVERSE 737 
 # 📀 EMBERMOON
-▄▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▄
 # 📚 Web Stack
   
   
@@ -8,9 +7,10 @@
  ### 📠 BOTTOM               
 
 + 📗 NGINX
++ 📀 MySQL
 + 📀 REDIS
-+ 📀 POSTGRESQL
 + ⚙️  NODE.js
++ ⚙️  Bun.sh
 + ⚙️  GO
 
 ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄
@@ -21,7 +21,6 @@
 + 📷 drei
 + 🖼 react.js
 +  ☎️ socket.io
-+ 🏦 redux
 
 █▄ ▄ ▄ ▄ ▄ ▄ ▄█
 
