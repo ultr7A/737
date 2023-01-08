@@ -7,7 +7,7 @@
  ### 📠 BOTTOM               
 
 + 📗 NGINX
-+ 📀 MySQL
++ 📀 Mariadb
 + 📀 REDIS
 + ⚙️  NODE.js
 + ⚙️  Bun.sh
